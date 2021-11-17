@@ -1,0 +1,171 @@
+body{
+    margin:0px;
+}
+
+div.headerBar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgb(108, 177, 241);
+    height:75px;
+    width:100%;
+}
+
+main{
+    min-height:800px;
+    width:75%;
+    float:left;
+}
+
+input.searchField{
+    width:400px;
+    height: 50%;
+    border-radius: 28px;
+    font-size: 2em;
+}
+
+div.headerBar-icons{
+    height:auto;
+    min-width: 100px;
+    margin:5px;
+}
+
+footer{
+    clear:both;
+}
+
+aside{
+    width:25%;
+    float:right;
+    height:auto;
+}
+
+section.adsColumn{
+    float:left;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+}
+
+section.postThread{
+    float:right;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+}
+
+div.writeMessageContainer, div.postContainer{
+    background-color: #fff;
+    border:1px solid black;
+    width:70%;
+    margin: 50px 5% 20px 20%;
+    box-sizing: border-box;
+}
+
+div.writeMessageContainer > h2{
+    color:grey;
+}
+
+div.postContainerTopRow{
+    height:75px;
+}
+
+.newChat{
+    background-color: rgb(240, 240, 240);
+}
+
+img.icon{
+    width:20px;
+    height:20px;
+    margin-left:40px;
+}
+
+div.writeMessageContainer{
+    min-height:100px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.writePost{
+    border-style:none;
+    height:50px;
+    font-size: 40px;
+    margin-top:10px;
+}
+
+div.postContainer{
+    min-height:300px;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+div.postContainer-imageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    min-height:300px;
+}
+
+div.postContainer-imageContainer > img{
+    padding:5px;
+    width:75%;
+}
+
+.postContainer-nameContainer{
+    display:inline-block;
+    width:50%;
+    height:75px;
+    margin:0px;
+}
+
+.postContainer-nameContainer > *{
+    margin:0px;
+    line-height:2em;
+}
+
+a.adsLink{
+    display:block;
+    margin-left:20px;
+    margin-top:40px;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+div.chatContainer{
+    position:fixed;
+    right:0px;
+    background-color: #fff;
+    border:1px solid black;
+    width:20%;
+    min-height:600px;
+    margin:50px 2% 20px 15%;
+}
+
+div.adContainer{
+    border: 1px solid black;
+    width:90%;
+    margin:50px 2% 20px 2%;
+}
+
+.adContainer > img{
+    width:100%;
+}
+
+div.footerBackground{
+    background-color: rgb(33, 33, 65);
+    height:100px;
+    width: 100%;
+}
+
+section.chatRow{
+    display:flex;
+    margin:4px;
+    padding:5px;
+    height:auto;
+}
+
+section.chatRow > p{
+    margin-left:10px;
+}
